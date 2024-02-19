@@ -69,7 +69,7 @@ if __name__ == "__main__":
                     #The game ends
                     print(f"The word is: {word}", end=' ')
                     flag = 1
-                    print("Congratulations you Won!!")
+                    print("\n\tCongratulations you Won!!")
                     break # out of the for loop
                     break #out of the while loop
                 else:
