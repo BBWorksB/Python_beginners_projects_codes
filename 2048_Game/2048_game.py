@@ -31,7 +31,7 @@ while (True):
         #The same step is followed for any command
 
     # If we move down
-    elif( command == "D" or 'd'):
+    elif( command == "D" or command == 'd'):
         mat, flag = gamecode.move_down(mat)
         status = gamecode.game_state(mat)
         print(status)
